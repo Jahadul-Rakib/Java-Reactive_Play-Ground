@@ -5,6 +5,7 @@ import org.reactivestreams.Subscriber;
 import org.reactivestreams.Subscription;
 
 public class SubscriberUtil implements Subscriber<Object> {
+
     public static final Faker FAKER =  Faker.instance();
 
     @Override
